@@ -1,0 +1,16 @@
+.textColor {
+    color: #5a108f; /* Highlight color */
+  }
+  .capitalize {
+    text-transform: uppercase;
+  }
+  
+  /* Styles for highlighted role and username */
+  .highlightedText {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff; /* White color for better contrast */
+    background-color: #5a108f; /* Background color for highlighting */
+    padding: 0.2rem 0.5rem; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+  }
