@@ -1,0 +1,80 @@
+/* UserRegister.module.css */
+
+/* Container for the form card */
+.formCard {
+    width: 500px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header of the form card */
+.cardHeader {
+    background-color: #5a108f;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+/* Form control styles */
+.formControl {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.7rem;
+    margin-top: 1%;
+}
+
+/* Highlight password field if error */
+.borderDanger {
+    border-color: #dc3545 !important;
+}
+
+/* Submit button styles */
+.btn {
+    background-color: #5a108f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4a0d75;
+    color: white;
+}
+
+/* Row and column styling for form layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.colMd6 {
+    flex: 1 1 calc(50% - 0.5rem);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .formCard {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .btn {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .colMd6 {
+        flex: 1 1 100%;
+    }
+}
